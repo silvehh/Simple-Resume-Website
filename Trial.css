@@ -1,0 +1,49 @@
+#TableProperties {
+    border: 1px solid;
+    width: 100%
+}
+
+.button, button {
+    font-weight: normal;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+.button:hover, button:hover {
+    background-color: white;
+    color: black;
+}
+
+#div {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+#div1 {
+    text-align: center;
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+}
+
+#em {
+    text-align: right;
+}
+
+#Horizontaline {
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+.no-count {
+    list-style-type: none;
+    counter-increment: list-item 0;
+}
